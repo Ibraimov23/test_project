@@ -1,0 +1,107 @@
+.claim {
+  margin-top: 57px;
+}
+.claim__cards {
+  gap: 48px;
+}
+.claim__cards__card {
+  flex: 1 1 550px;
+}
+.claim__cards__card_body {
+  padding: 8% 4vh 3% 4vh;
+}
+.claim__cards__card__inputs_input {
+  width: 100%;
+}
+.claim__cards__card__input_content,
+.claim__cards__card__term_content
+ {
+  padding: unset;
+}
+.claim__cards__card__price_headers {
+  justify-content: space-between;
+  align-items: center;
+}
+.claim__cards__card__inputs_input input{
+  border: 1px solid #1E2128;
+  background: #2C303F;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.2);
+  height: auto;
+}
+.claim__cards__card__inputs_button {
+  position: relative;
+  padding: 22px 0px 19px 0px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  border: unset;
+}
+.claim__cards__card__inputs_button:hover {
+  background-color: #c0c0c0;
+}
+.claim__cards__card__inputs_button span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  color: #CC3750;
+}
+.claim__cards__card__inputs_button svg {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+}
+.claim__cards__card__inputs_input fieldset {
+  border: unset;
+  border-width: unset;
+}
+.claim__cards__card_check {
+  background: #2C303F;
+  border: 1px solid #1E2128;
+  margin-top: 6px;
+}
+.claim__cards__card_line {
+  margin-top: 44px;
+  border: 1px solid #2C303F;
+}
+.claim__cards__card__price__diagrams_line {
+  border: 1px solid #2C303F;
+  margin: 0px;
+}
+.claim__cards__card__price__diagrams_diagramIcon {
+  position: absolute;
+  bottom: 1px;
+}
+.claim__cards__card__price_diagrams_diagram {
+  margin: 6px;
+}
+.claim__cards__card__filled__diagrams__diagram_line {
+  background-color: #000000;
+  height: 3px;
+}
+.claim__cards__card__filled__diagrams__diagram_growth {
+  position: absolute;
+  background: #5E00D7;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 55px;
+  height: 160px;
+  bottom: 3.9rem;
+}
+@media only screen and (max-width: 700px) {
+  .claim__cards__card__price_diagrams_diagram {
+    margin: -1px;
+  }
+  .claim__cards__card__price__diagrams_diagramIcon svg {
+    width: 315px;
+    height: 154px;
+  }
+  .claim__cards__card__filled_diagrams_diagram {
+    display: none;
+  }
+}

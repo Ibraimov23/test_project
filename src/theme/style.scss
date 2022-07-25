@@ -1,0 +1,15 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://rsms.me/inter/inter.css');
+// /*--------------------------------------------------------------
+// # Variables, functions and mixins
+// --------------------------------------------------------------*/
+
+
+@import "base/base";
+
+@import "layout/header";
+@import "layout/welcome";
+@import "layout/claim";
+@import "layout/description";
+
+// @import "layout/header";
