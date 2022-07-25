@@ -24,7 +24,7 @@ export const CardDataFilled: FC<CardDataFilledProps> = () => {
             >
                 0 / 250 bnb
             </Typography>
-            <Box className='claim__cards__card__filled__desc' mt={14.2} position='relative' display='flex' alignItems='end' justifyContent='space-between'>
+            <Box className='claim__cards__card__filled__desc' mt='71px' position='relative' display='flex' alignItems='end' justifyContent='space-between'>
                 <Typography component="div">
                     <Typography noWrap component="div" fontFamily='Inter' textAlign={'left'} fontWeight='300'
                      fontSize={'20px'} color={'#FFFFFF'}>
